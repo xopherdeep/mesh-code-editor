@@ -13,20 +13,20 @@ $(function() {
 
   /*==========  MESH CODE EDITOR BOXES  ==========*/
 
-  var htmlBox = CodeMirror.fromTextArea(document.getElementById("html"), {
+  htmlBox = CodeMirror.fromTextArea(document.getElementById("html"), {
     lineNumbers: true,
     lineWrapping: true,
     mode: 'xml',
     htmlMode: true
   });
 
-  var cssBox = CodeMirror.fromTextArea(document.getElementById("css"), {
+  cssBox = CodeMirror.fromTextArea(document.getElementById("css"), {
     lineNumbers: true,
     lineWrapping: true,
     mode: "text/css"
   });
 
-  var jsBox = CodeMirror.fromTextArea(document.getElementById("js"), {
+  jsBox = CodeMirror.fromTextArea(document.getElementById("js"), {
     lineNumbers: true,
     lineWrapping: true,
     mode: "text/javascript"
